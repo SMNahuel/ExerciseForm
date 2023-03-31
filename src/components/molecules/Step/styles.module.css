@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    padding: 10px;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step > label{
+    text-transform: uppercase;
+}
+
+.step > label:nth-child(1) {
+    color: hsl(231, 11%, 63%);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.step > label:nth-child(2) {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: bold;
+}

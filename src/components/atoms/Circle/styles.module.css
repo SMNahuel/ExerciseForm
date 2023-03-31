@@ -1,0 +1,17 @@
+.container{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px hsl(231, 11%, 63%) solid;
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > label{
+    font-weight: 700;
+    font-size: 14px;
+}
