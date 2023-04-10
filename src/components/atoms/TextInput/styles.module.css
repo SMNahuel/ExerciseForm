@@ -1,0 +1,16 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1em;
+}
+.inputContainer > label{
+    color: hsl(213, 96%, 18%);
+}
+.input{
+    border-radius: 5px;
+    width: 70%;
+    border: 1px hsl(229, 24%, 87%) solid;
+    height: 35px;
+    margin-top: 5px;
+}

@@ -1,7 +1,14 @@
-const TextInput = () => {
+import { FC } from 'react';
+import { IInput } from './interface';
+import styles from './styles.module.css';
+
+const TextInput:FC<IInput> = ({text}) => {
     return(
-        <input type="text"></input>
+        <div className={styles.inputContainer}>
+            <label>{text}</label>
+            <input className={styles.input} type="text"></input>
+        </div>
     )
 }
 
-export default TextInput
+export default TextInput;

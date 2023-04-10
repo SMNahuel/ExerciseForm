@@ -1,23 +1,40 @@
 .container{
     display: flex;
     flex-direction: column;
-    
-    border: 1px solid red;
+    width: 100%;
+    padding-left: 4em;
+    padding-top: 2em;
 }
 
-.container > div > button{
+.container > h2{
+    color: hsl(213, 96%, 18%);
+}
+
+.container > p{
+    color: hsl(231, 11%, 63%);
+}
+
+.btnNext{
     color: white;
-    background-color: red;
+    background-color: hsl(213, 96%, 18%);
     border: none;
-    width: 80px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container > div {
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctnBtn{
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    width: 70%;
+    height: 100%;
 }
