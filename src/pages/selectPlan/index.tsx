@@ -1,6 +1,8 @@
+import styles from './style.module.css';
+
 const SelectPlan = () => {
     return(
-        <div>
+        <div className={styles.container}>
             
         </div>
     )

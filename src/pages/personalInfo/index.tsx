@@ -5,7 +5,6 @@ import Stepper from 'src/components/organisms/Stepper';
 const PersonalInfo = () => {
     return (
         <div className={styles.container}>
-            <Stepper />
             <Form />
         </div>
     )

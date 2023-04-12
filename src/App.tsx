@@ -1,13 +1,14 @@
 import React from 'react';
-import './App.css';
 import { ContextProvider } from './context';
-import PersonalInfo from './pages/personalInfo';
+import Container from './pages';
+import './App.css';
+
 
 function App() {
   return (
     <React.Fragment>
       <ContextProvider >
-        <PersonalInfo />
+        <Container />
       </ContextProvider>
     </React.Fragment>
   );

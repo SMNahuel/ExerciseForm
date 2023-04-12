@@ -3,6 +3,19 @@
     height: 35px;
     margin-left: 10px;
     margin-right: 10px;
+    border: 1px white solid;
+    background-color: hsl(243, 100%, 62%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSelect{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: 1px hsl(231, 11%, 63%) solid;
     background-color: hsl(217, 100%, 97%);
     border-radius: 100px;
@@ -11,7 +24,9 @@
     align-items: center;
 }
 
-div > label{
+
+.container > label{
     font-weight: 700;
     font-size: 14px;
+    color: white;
 }
