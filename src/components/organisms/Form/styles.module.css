@@ -1,31 +1,9 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     padding-left: 4em;
     padding-top: 2em;
-}
-
-.container > h2{
-    color: hsl(213, 96%, 18%);
-}
-
-.container > p{
-    color: hsl(231, 11%, 63%);
-}
-
-.btnNext{
-    color: white;
-    background-color: hsl(213, 96%, 18%);
-    border: none;
-    width: 120px;
-    height: 40px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 0.9em
 }
 
 .form{
@@ -33,10 +11,3 @@
     flex-direction: column;
 }
 
-.ctnBtn{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 70%;
-    height: 100%;
-}

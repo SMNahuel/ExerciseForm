@@ -38,12 +38,20 @@ export function ContextProvider({ children }: any) {
         })
     }
 
+    const goBack = () => {
+        setStep({
+            ...step,
+            id: step.id -1
+        })
+    }
+
     return (
         <FormContext.Provider value={{
             step,
             saveForm,
             updateForm,
-            nextStep
+            nextStep,
+            goBack
         }}>
             {children}
         </FormContext.Provider>

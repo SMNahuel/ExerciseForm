@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    padding-top: 2em;
+    width: 70%;
+}
+
+.containerCard {
+    display: inline-grid;
+    grid-template-rows: 180px;
+    grid-template-columns: 180px 180px 180px;
+    grid-gap: 1em;
+    justify-content: space-between;
+}

@@ -9,5 +9,6 @@ export type FormContextType = {
     saveForm: (form: IForm) => void;
     updateForm: (id: number) => void;
     nextStep: () => void;
+    goBack: () => void;
 }
 

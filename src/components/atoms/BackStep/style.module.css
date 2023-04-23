@@ -1,0 +1,14 @@
+.btnBack {
+    color: hsl(231, 11%, 63%);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}

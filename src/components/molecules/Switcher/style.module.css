@@ -1,0 +1,9 @@
+.container {
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+

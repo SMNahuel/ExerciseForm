@@ -1,0 +1,14 @@
+.btnNext {
+    color: white;
+    background-color: hsl(213, 96%, 18%);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    cursor: pointer;
+}

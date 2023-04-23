@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px hsl(229, 24%, 87%) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: flex-start;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.card:hover{
+    border: 1.5px hsl(243, 100%, 62%) solid;
+    background-color: hsl(217, 100%, 97%);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.text > span{
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+
+.text > p{
+    color: hsl(231, 11%, 63%);
+}
